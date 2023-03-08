@@ -314,9 +314,22 @@ Maven Repository : https://mvnrepository.com/
   아래 방식은 @GetMapping에서 사용된 {변수}의 이름과 메소드의 매개변수와 일치시켜야 함<br>
   <p>
   <img src = "https://user-images.githubusercontent.com/70953813/223694142-6cfab462-da54-445e-9395-3c70b99b6b23.PNG">
+  <br>
+  변수의 관리의 용이를 위해 사용되는 방식<br>
+  variable의 값과 String 변수의 이름을 동일하게 하지 못할때 밑의 방법으로 사용<br>
+  PathVariable의 괄호 안에 variable 값을 일치시켜서 사용 <br>
+  <p>
+  <img src = "https://user-images.githubusercontent.com/70953813/223694842-3399d95e-f7f2-4c71-b4d1-86ce4d36327d.PNG">
+  <p>
+  
   <hr>
   
-  <h3></h3>
+  <h3>@RequestParam</h3>
+  GET 형식의 요청에서 쿼리 문자열을 전달하기 위해 사용되는 방법 <br>
+  '?'를 기준으로 우측에 {키}={값}의 형태로 전달되며, 복수 형태로 전달할 경우 &를 사용함
+  <p>
+  <img src = "https://user-images.githubusercontent.com/70953813/223698274-c105a7ca-491a-4b18-9471-cef0ab4f40cb.PNG">
+  <p>
   <hr>
   
   <h3></h3>
