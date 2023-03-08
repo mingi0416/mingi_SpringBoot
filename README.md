@@ -491,22 +491,65 @@ Maven Repository : https://mvnrepository.com/
   VO의 경우 Read Only의 개념을 가지고 있음 <br>
   <hr>
   
-  <h3></h3>
+  <h3>ORM(Object Relational Mappiong)이란?</h3>
+  어플리케이션의 객체와 관계형 데이터베이스의 데이터를 자동으로 매핑해주는 것을 의미 <br>
+  -Java의 데이터 클래스와 관계형 데이터베이스의 테이블을 매핑 <br>
+  객체지향 프로그래밍과 관계형 데이터베이스의 차이로 발생하는 제약사항을 해결해주는 역할을 수행 <br>
+  대표적으로 JPA, Hibernate 등이 있음(Persistent API) <br>
+  <p>
+    <img src="https://user-images.githubusercontent.com/70953813/223741275-f0368cb9-f936-452b-9478-361363c8198e.PNG">
+  </p>
   <hr>
   
-  <h3></h3>
+  <h3>ORM의 장점</h3>
+  SQL 쿼리가 아닌 직관적인 코드로 데이터를 조작할 수 있음 <br>
+  -개발자가 보다 비즈니스 로직에 집중할 수 있음 <br>
+  <br>
+  재사용 및 유지보수가 편리 <br>
+  -ORM은 독립적으로 작성되어 있어 재사용이 가능 <br>
+  -매핑정보를 명확하게 설계하기 때문에 따로 데이터베이스를 볼 필요가 없음 <br>
+  <br>
+  DBMS에 대한 종속성이 줄어듬 <br>
+  -DBMS를 교체하는 작업을 비교적 적은 리스크로 수행 가능
   <hr>
   
-  <h3></h3>
+  <h3>ORM의 단점</h3>
+  복잡성이 커질 경우 ORM만으로 구현하기 어려움 <br>
+  -직접 쿼리를 구현하지 않아 복잡한 설계가 어려움 <br>
+  <br>
+  잘못 구현할 경우 속도 저하 발생 <br>
+  <br>
+  대형 쿼리는 별도의 튜닝이 필요할 수 있음 <br>
+  
   <hr>
   
-  <h3></h3>
+  <h3>JPA(Java Persistance API)란?</h3>
+  JPA는 Java Persistance API의 줄임말이며, ORM과 관련된 인터페이스의 모음 <br>
+  Java 진영에서 표준 ORM으로 채택되어 있음 <br>
+  ORM이 큰 개념이라고 하면, JPA는 더 구체화 시킨 스펙을 포함하고 있음 <br>
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223743236-f723085a-31bd-4fc9-aaf4-162e4f4511ba.PNG">
+  </p>
   <hr>
   
-  <h3></h3>
+  <h3>Hibernate</h3>
+  ORM Framework 중 하나 <br>
+  JPA의 실제 구현체 중 하나이며, 현재 JPA 구현체 중 가장 많이 사용됨 <br>
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223743603-3d7ec058-d662-4dd7-9786-615107396114.PNG">
+  </p>
   <hr>
   
-  <h3></h3>
+  <h3>Spring Data JPA</h3>
+  Spring Framework에서 JPA를 편리하게 사용할 수 있게 지원하는 라이브러리 <br>
+  -CRUD 처리용 인터페이스 제공 <br>
+  -Repository 개발 시 인터페이스만 작성하면 구현 객체를 동적으로 생성해서 주입 <br>
+  -데이터 접근 계층 개발시 인터페이스만 작성해도 됨 <br>
+  <br>
+  Hibernate에서 자주 사용되는 기능을 조금 더 쉽게 사용할 수 있게 구현
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223743862-d7b7b97e-6728-4538-a18d-a7593b3e900f.PNG">
+  </p>
   <hr>
   
   <h3></h3>
