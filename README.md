@@ -284,7 +284,21 @@ Maven Repository : https://mvnrepository.com/
   </p>
   <hr>
   
-  <h3></h3>
+  <h3>@RequestMapping</h3>
+  MVC의 핸들러 매핑을 위해서 DefaultAnnotationHandlerMapping을 사용 <br>
+  DefaultAnnotationHandlerMapping 매핑정보로 @RequestMapping 어노테이션을 활용 <br>
+  클래스와 메소드의 RequestMapping을 통해 URL을 매핑하여 경로를 설정하여 해당 메소드에서 처리 <br>
+  <br>
+  value : url 설정<br>
+  method : GET, POST, DELETE, PUT, PATCH 등<br>
+  <br>
+  스프링은 4.3버전 부터 메소드를 지정하는 방식보다 간단하게 사용할 수 있는 어노테이션을 사용할 수 있음 <br>
+  -@GetMapping <br>
+  -@PostMapping <br>
+  -@DeleteMapping <br>
+  -@PutMapping <br>
+  -@PatchMapping <br>
+  
   <hr>
   
   <h3></h3>
