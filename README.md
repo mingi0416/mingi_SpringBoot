@@ -459,19 +459,36 @@ Maven Repository : https://mvnrepository.com/
   -EqualsAndHashCode<br>
   <hr>
   
-  <h3></h3>
+  <h3>Spring Boot 서비스 구조</h3>
+  <p>
+    <img src="https://user-images.githubusercontent.com/70953813/223731934-12dfb17f-f99c-436c-9aef-6bd701ad138b.PNG">
+  </p>
+  <br>
+  
   <hr>
   
-  <h3></h3>
+  <h3>Entity(Domain)</h3>
+  데이터베이스에 쓰일 컬럼과 여러 엔티티 간의 연관관계를 정의 <br>
+  데이터베이스의 테이블을 하나의 엔티티로 생각해도 무방함 <br>
+  실제 데이터베이스의 테이블과 1:1로 매핑됨 <br>
+  이 클래스의 필드는 각 테이블 내부의 컬럼(Column)을 의미 <br>
   <hr>
   
-  <h3></h3>
+  <h3>Repository</h3>
+  Entity에 의해 생성된 데이터베이스에 접근하는 메소드를 사용하기 위한 인터페이스 <br>
+  Service와 DB를 연결하는 고리의 역할을 수행 <br>
+  데이터베이스에 적용하고자 하는 CRUD를 정의하는 영역 <br>
   <hr>
   
-  <h3></h3>
+  <h3>DAO(Data Access Object)</h3>
+  데이터베이스에 접근하는 객체를 의미(Persistance Layer)<br>
+  Service가 DB에 연결할 수 있게 해주는 역할 <br>
+  DB를 사용하여 데이터를 조회하거나 조작하는 기능을 전담 <br>
   <hr>
   
-  <h3></h3>
+  <h3>DTO(Data Transfer Object)</h3>
+  DTO는 VO(Value Object)로 불리기도 하며, 계층간 데이터 교환을 위한 객체를 의미 <br>
+  VO의 경우 Read Only의 개념을 가지고 있음 <br>
   <hr>
   
   <h3></h3>
