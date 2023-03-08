@@ -279,6 +279,7 @@ Maven Repository : https://mvnrepository.com/
   
   <h3>첫 기능 만들기</h3>
   <h4> 도식화 </h4>
+  <br>
   <p>
   <img src = "https://user-images.githubusercontent.com/70953813/223666496-561c748e-a9ac-4cdb-b61e-5d10642405af.PNG">
   </p>
@@ -301,10 +302,18 @@ Maven Repository : https://mvnrepository.com/
   
   <hr>
   
-  <h3></h3>
+  <h3>@GetMapping(without Param)</h3>
+  별도의 파라미터 없이 GET API를 호출하는 경우 사용되는 방법 <br>
+  <p>
+  <img src = "https://user-images.githubusercontent.com/70953813/223693626-2c5fc9b1-34be-4054-88d2-89a913b0da61.PNG">
+  </p>
   <hr>
   
-  <h3></h3>
+  <h3>@PathVariable</h3>
+  GET 형식의 요청에서 파라미터를 전달하기 위해 URL에 값을 담아 요청하는 방법 <br>
+  아래 방식은 @GetMapping에서 사용된 {변수}의 이름과 메소드의 매개변수와 일치시켜야 함<br>
+  <p>
+  <img src = "https://user-images.githubusercontent.com/70953813/223694142-6cfab462-da54-445e-9395-3c70b99b6b23.PNG">
   <hr>
   
   <h3></h3>
