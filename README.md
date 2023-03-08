@@ -270,7 +270,11 @@ Maven Repository : https://mvnrepository.com/
   한 영역을 업데이트 하더라도 다른 곳에 영향을 주지 않음 <br>
   <hr>
   
-  <h3></h3>
+  <h3>@RestController</h3>
+  Spring Framwork 4버전부터 사용가능한 어노테이션<br>
+  @Controller에 @responseBody가 결합된 어노테이션 <br>
+  컨트롤러 클래스 하위 메소드에 @ResponseBody 어노테이션을 붙이지 않아도 문자열과 JSON 등을 전송할 수 있음 <br>
+  View를 거치지 않고 HTTP ResponseBody에 직접 Return값을 담아 보내게 됨 <br>
   <hr>
   
   <h3></h3>
