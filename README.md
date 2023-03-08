@@ -326,14 +326,23 @@ Maven Repository : https://mvnrepository.com/
   
   <h3>@RequestParam</h3>
   GET 형식의 요청에서 쿼리 문자열을 전달하기 위해 사용되는 방법 <br>
-  '?'를 기준으로 우측에 {키}={값}의 형태로 전달되며, 복수 형태로 전달할 경우 &를 사용함
+  '?'를 기준으로 우측에 {키}={값}의 형태로 전달되며, 복수 형태로 전달할 경우 &를 사용함<br>
   <p>
   <img src = "https://user-images.githubusercontent.com/70953813/223698274-c105a7ca-491a-4b18-9471-cef0ab4f40cb.PNG">
   <p>
+  <br>
+  아래 예시 코드는 어떤 요청 값이 들어올지 모를 경우 사용하는 방식<br>
+  <p>
+  <img src = "https://user-images.githubusercontent.com/70953813/223699246-5b6a4e59-9c14-4a40-b78a-5438b86900ad.PNG">
+  <p>
   <hr>
   
-  <h3></h3>
-  <hr>
+  <h3>DTO 사용</h3>
+  GET 형식의 요청에서 쿼리 문자열을 전달하기 위해 사용되는 방법 <br>
+  key와 value가 정해져있지만, 받아야할 파라미터가 많을 경우 DTO 객체를 사용한 방식<br>
+  <p>
+  <img src = "https://user-images.githubusercontent.com/70953813/223699760-3e7fc84e-f2db-434b-b8df-29a6f4d2d8ad.PNG">
+  <p>
   <hr>
   
   <h3></h3>
