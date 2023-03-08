@@ -277,8 +277,11 @@ Maven Repository : https://mvnrepository.com/
   View를 거치지 않고 HTTP ResponseBody에 직접 Return값을 담아 보내게 됨 <br>
   <hr>
   
-  <h3>도식화</h3>
-  ![도식화](https://user-images.githubusercontent.com/70953813/223667326-b2cc2cf4-04a6-4e83-a7b4-685001e506a9.PNG)
+  <h3>첫 기능 만들기</h3>
+  <h4> 도식화 </h4>
+  <p>
+  <img src = "https://user-images.githubusercontent.com/70953813/223666496-561c748e-a9ac-4cdb-b61e-5d10642405af.PNG">
+  </p>
   <hr>
   
   <h3></h3>
