@@ -426,6 +426,37 @@ Maven Repository : https://mvnrepository.com/
     <img src = "https://user-images.githubusercontent.com/70953813/223726821-1cdd278b-4f69-4e36-91bd-2d1159b2af02.PNG">
     <img src = "https://user-images.githubusercontent.com/70953813/223726845-79b2c563-8ea9-41d7-b68b-f368129ed8aa.PNG">
   </p>
+  <br>
+  @NoArgsConstructor // @AllArgsConstructor // @RequiredArgsConstructor <br>
+  @NoArgsConstructor : 파라미터가 없는 생성자를 생성<br>
+  @AllArgsConstructor : 모든 필드값을 파라미터로 갖는 생성자를 생성<br>
+  @RequiredArgsConstructor : 필드값 중 final이나 @NotNull인 값을 갖는 생성자를 생성<br>
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223727886-6075c91b-356d-46a7-a5c8-674ae357681d.PNG">
+  </p>
+  <br>
+  @ToString<br>
+  toString 메소드를 자동으로 생성해주는 기능 <br>
+  @ToString 어노테이션에 exclude 속성을 사용하여 특정 필드를 toString에서 제외시킬 수 있음
+  <p>
+    <img src="https://user-images.githubusercontent.com/70953813/223728370-c5fd6dc9-a676-4d5a-9bfc-9a733232bef5.PNG">
+  </p>
+  <br>
+  @EqualsAndHashCode <br>
+  equals, hashCode 메소드를 자동으로 생성
+  equals : 두 객체의 개뇽이 같은지 동등성(equality)를 비교하는 연산자 <br>
+  hashCode : 두 객체가 같은 객체인지 동일성(identity)를 비교하는 연산자 <br>
+  <br>
+  callSuper 속성을 통해 메소드 생성시 부모 클래스의 필드까지 고려할지 여부 설정 가능 <br>
+  - callSuper = true -> 부모 클래스 필드 값들도 동일한지 체크 <br>
+  <br>
+  @Data <br>
+  해당 어노테이션을 사용하면, 앞서 나온 기능들을 한번에 추가해줌 <br>
+  -@Getter <br>
+  -@Setter <br>
+  -@RequiredArgsConstructor <br>
+  -@ToString <br>
+  -EqualsAndHashCode<br>
   <hr>
   
   <h3></h3>
