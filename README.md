@@ -278,7 +278,7 @@ Maven Repository : https://mvnrepository.com/
   <hr>
   
   <h3>도식화</h3>
-  ![도식화](https://user-images.githubusercontent.com/70953813/223666496-561c748e-a9ac-4cdb-b61e-5d10642405af.PNG)
+  ![도식화](https://user-images.githubusercontent.com/70953813/223667326-b2cc2cf4-04a6-4e83-a7b4-685001e506a9.PNG)
   <hr>
   
   <h3></h3>
