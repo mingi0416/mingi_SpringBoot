@@ -345,10 +345,22 @@ Maven Repository : https://mvnrepository.com/
   <p>
   <hr>
   
-  <h3></h3>
+  <h3>Post API</h3>
+  리소스를 추가하기 위해 사용되는 API <br>
+  @PostMapping : POST API를 제작하기 위해 사용되는 어노테이션, @RequestMapping + POST method의 조합 <br>
+  일반적으로 추가하고자 하는 Resource를 http body에 추가하여 서버에 요청 <br>
+  그렇기 때문에 @RequestBody를 이용하여 body에 담겨있는 값을 받아야함 <br>
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223707927-e4caf518-3df8-4e45-9cb1-f589882891ee.PNG">
+  </p>
+  
   <hr>
   
-  <h3></h3>
+  <h3>DTO 사용</h3>
+  key와 value가 정해져있지만, 받아야할 파라미터가 많을 경우 DTO 객체를 사용한 방식<br>
+  @RequestBody를 안넣을시 Null 값으로 처리됨
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223708380-de24b457-9b15-4add-a931-467e898eddff.PNG">
   <hr>
   
   <h3></h3>
