@@ -400,7 +400,32 @@ Maven Repository : https://mvnrepository.com/
   -HttpBody <br>
   <hr>
   
-  <h3></h3>
+  <h3>Lombok이란?</h3>
+  반복되는 메소드를 Annotation을 사용하여 자동으로 작성해주는 라이브러리<br>
+  일반적으로 VO, DTO, Model, Entity등의 데이터 클래스에서 주로 사용됨 <br>
+  대표적으로 많이 사용되는 Annotation <br>
+  -@Getter <br>
+  -@Setter <br>
+  -@NoArgConstructor <br>
+  -@AllArgConstuctor <br>
+  -@Data <br>
+  -@ToString <br>
+  <hr>
+  
+  <h3>Lombok 사용법</h3>
+  라이브러리 의존성 설정 <br>
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223726213-c327c713-2237-4ba5-a2cb-7c660e5e7eb2.PNG">
+  </p>
+  <hr>
+  
+  <h3>Lombok의 대표적인 어노테이션</h3>
+  @Getter, @Setter <br>
+  해당 클래스에 선언되어 있는 필드를 기반으로 'getField', 'setField'와 같은 식으로 자동으로 메소드를 생성 <br>
+  <p>
+    <img src = "https://user-images.githubusercontent.com/70953813/223726821-1cdd278b-4f69-4e36-91bd-2d1159b2af02.PNG">
+    <img src = "https://user-images.githubusercontent.com/70953813/223726845-79b2c563-8ea9-41d7-b68b-f368129ed8aa.PNG">
+  </p>
   <hr>
   
   <h3></h3>
@@ -410,12 +435,6 @@ Maven Repository : https://mvnrepository.com/
   <hr>
   
   <h3></h3>
-  <hr>
-  
-  <h3></h3>
-  <hr>
-  
-    <h3></h3>
   <hr>
   
   <h3></h3>
