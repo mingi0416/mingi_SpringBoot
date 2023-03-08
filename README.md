@@ -363,22 +363,41 @@ Maven Repository : https://mvnrepository.com/
     <img src = "https://user-images.githubusercontent.com/70953813/223708380-de24b457-9b15-4add-a931-467e898eddff.PNG">
   <hr>
   
-  <h3></h3>
+  <h3>Swagger란?</h3>
+  협업을 위해 필요한 라이브러리 <br>
+  서버로 요청되는 API 리스트를 HTML 화면으로 문서화하여 테스트 할 수 있는 라이브러리 <br>
+  이 라이브러리는 서버가 가동되면서 @RestController를 읽어 API를 분석하여 HTML 문서를 작성함<br>
   <hr>
   
-  <h3></h3>
+  <h3>Swagger가 필요한 이유</h3>
+  REST API의 스펙을 문서화 하는 것은 매우 중요 <br>
+  API를 변경할 때마다 Reference 문서를 계속 바꿔야하는 불편함이 있음<br>
   <hr>
   
-  <h3></h3>
+  <h3>Swagger 설정 방법</h3>
+  @Configuration : 어노테이션 기반의 환경 구성을 돕는 어노테이션, IoC Container에게 해당 클래스를 Bean 구성 Class임을 알려줌<br>
+  @Bean : 개발자가 직접 제어가 불가능한 외부 라이브러리 등을 Bean으로 만들 경우에 사용<br>
+  링크 : http://localhost:8080/swagger-ui.html
   <hr>
   
-  <h3></h3>
+  <h3>Put API</h3>
+  해당 리소스가 존재하면 갱신하고, 리소스가 없을 경우에는 새로 생성해주는 API <br>
+  업데이트를 위한 메소드 <br>
+  기본적인 동작 방식은 Post API와 동일 <br>
   <hr>
   
-  <h3></h3>
+  <h3>Delete API</h3>
+  서버를 통해 리소스를 삭제 하기 위해 사용되는 API <br>
+  일반적으로 @Pathvariable을 통해 리소스 ID 등을 받아 처리
   <hr>
   
-  <h3></h3>
+  <h3>ResponseEntity</h3>
+  Spring Framework에서 제공하는 클래스 중 HttpEntity라는 클래스를 상속받아 사용하는 클래스<br>
+  사용자의 HttpRequest에 대한 응답 데이터를 포함<br>
+  포함하는 클래스 <br>
+  -HttpStatus <br>
+  -HttpHeaders <br>
+  -HttpBody <br>
   <hr>
   
   <h3></h3>
